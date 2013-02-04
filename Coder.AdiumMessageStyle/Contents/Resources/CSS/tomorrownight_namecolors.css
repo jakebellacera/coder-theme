@@ -1,0 +1,8 @@
+.incoming .time, .outgoing .time { color: #3F4347; }
+
+.incoming .fname, .incoming .sender,
+.outgoing .fname, .outgoing .sender { font-weight: bold; }
+
+.incoming .fname, .incoming .sender { color: #cc6666; }
+
+.outgoing .fname, .outgoing .sender { color: #81a2be; }
