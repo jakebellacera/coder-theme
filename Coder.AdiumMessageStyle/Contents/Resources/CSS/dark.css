@@ -1,0 +1,38 @@
+body { color: #d1d2d3; background-color: #1d1f21; margin: 5px; line-height: 1.4em; }
+
+/* Messages */
+.msg { margin-bottom: 5px; }
+.msg a { color: #B5BD68; }
+.msg a:visited { color: #B5BD68; }
+.msg .time, .msg .sender { margin-right: 1em; }
+.msg .time { width: 40px; }
+
+/* Sender names and timestamps */
+.incoming .time, .outgoing .time { color: #3F4347; }
+.incoming .fname, .incoming .sender,
+.outgoing .fname, .outgoing .sender { font-weight: bold; }
+.incoming .fname, .incoming .sender { color: #cc6666; }
+.outgoing .fname, .outgoing .sender { color: #81a2be; }
+
+/* Statuses */
+.status { margin-bottom: 5px; }
+.status .bullet { margin-right: 0.5em; }
+
+.away .message { color: #969896; }
+.away_message .message { color: #969896; }
+.return_away .message { color: #b5bd68; }
+.date_separator .message { color: #969896; }
+.idle .message { color: #969896; }
+.return_idle .message { color: #969896; }
+.offline .message, .contact_left .message { color: #969896; }
+.online .message, .contact_joined .message { color: #969896; }
+.teaser, .error .message, .timed_out .message { color:#969896; }
+.encryption .message{color: #969896;}
+.fileTransferBegan .message, .fileTransferComplete .message{ color: #969896; }
+
+
+/* History */
+.history span { opacity: .5!important; }
+
+/* Need to add >= 1px padding to chat window */
+#Chat { padding-bottom: 1px; }
