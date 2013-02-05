@@ -1,38 +1,40 @@
-body { color: #d1d2d3; background-color: #1d1f21; margin: 5px; line-height: 1.4em; }
+body {
+  color: #c5c8c6;
+  background-color: #1d1f21;
+  margin: 5px;
+  line-height: 1.4em; }
 
-/* Messages */
-.msg { margin-bottom: 5px; }
-.msg a { color: #B5BD68; }
-.msg a:visited { color: #B5BD68; }
-.msg .time, .msg .sender { margin-right: 1em; }
-.msg .time { width: 40px; }
+.msg {
+  margin-bottom: 5px; }
+  .msg a {
+    color: #636cff; }
+    .msg a:hover {
+      color: #969cff; }
+    .msg a:visited {
+      color: #b294bb; }
+  .msg .time, .msg .sender {
+    margin-right: 1em; }
+  .msg .time {
+    color: #35393c; }
+  .msg .sender {
+    font-weight: bold; }
+  .msg.incoming .sender {
+    color: #cc6666; }
+  .msg.outgoing .sender {
+    color: #81a2be; }
+  .msg .message {
+    color: #c5c8c6; }
 
-/* Sender names and timestamps */
-.incoming .time, .outgoing .time { color: #3F4347; }
-.incoming .fname, .incoming .sender,
-.outgoing .fname, .outgoing .sender { font-weight: bold; }
-.incoming .fname, .incoming .sender { color: #cc6666; }
-.outgoing .fname, .outgoing .sender { color: #81a2be; }
+.status {
+  margin-bottom: 5px; }
+  .status .bullet {
+    margin-right: 0.5em; }
+  .status .message {
+    color: #969896; }
 
-/* Statuses */
-.status { margin-bottom: 5px; }
-.status .bullet { margin-right: 0.5em; }
-
-.away .message { color: #969896; }
-.away_message .message { color: #969896; }
-.return_away .message { color: #b5bd68; }
-.date_separator .message { color: #969896; }
-.idle .message { color: #969896; }
-.return_idle .message { color: #969896; }
-.offline .message, .contact_left .message { color: #969896; }
-.online .message, .contact_joined .message { color: #969896; }
-.teaser, .error .message, .timed_out .message { color:#969896; }
-.encryption .message{color: #969896;}
-.fileTransferBegan .message, .fileTransferComplete .message{ color: #969896; }
-
-
-/* History */
-.history span { opacity: .5!important; }
+.history span {
+  opacity: 0.5 !important; }
 
 /* Need to add >= 1px padding to chat window */
-#Chat { padding-bottom: 1px; }
+#Chat {
+  padding-bottom: 1px; }

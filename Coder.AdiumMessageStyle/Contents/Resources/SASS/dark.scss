@@ -1,0 +1,68 @@
+@import "_colors.scss";
+$spacing: 5px;
+
+// =============================================================================
+
+body {
+  color: $lightGrey;
+  background-color: $charcoal;
+  margin: $spacing;
+  line-height: 1.4em;
+}
+
+// Messages
+.msg {
+  margin-bottom: $spacing;
+
+  a {
+    color: $blue;
+
+    &:hover {
+      color: lighten($blue, 10%);
+    }
+
+    &:visited {
+      color: $purple;
+    }
+  }
+
+  // Timestamps
+  .time, .sender { margin-right: 1em; }
+  .time { color: lighten($charcoal, 10%); }
+
+  // Sender names
+  .sender {
+    font-weight: bold;
+  }
+
+  &.incoming {
+    .sender { color: $red; }
+  }
+
+  &.outgoing {
+    .sender { color: $cyan; }
+  }
+
+  // Mesages
+  .message {
+    color: $lightGrey;
+  }
+}
+
+// Statuses
+.status {
+  margin-bottom: 5px;
+
+  .bullet { margin-right: 0.5em; }
+
+  .message { color: $grey; }
+}
+
+
+// History
+.history {
+  span { opacity: 0.5 !important; }
+}
+
+/* Need to add >= 1px padding to chat window */
+#Chat { padding-bottom: 1px; }

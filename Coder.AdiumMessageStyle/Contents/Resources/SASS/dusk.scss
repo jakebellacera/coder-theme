@@ -1,0 +1,6 @@
+@import "_colors.scss";
+
+.msg {
+  &.incoming .sender { color: $purple; }
+  &.outgoing .sender { color: $green; }
+}
