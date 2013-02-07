@@ -12,8 +12,6 @@ body {
       color: #969cff; }
     .msg a:visited {
       color: #b294bb; }
-  .msg .time, .msg .sender {
-    margin-right: 1em; }
   .msg .time {
     color: #35393c; }
   .msg .sender {
