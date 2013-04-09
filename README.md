@@ -8,7 +8,12 @@ Coder is a simple, irc-like theme for Adium. The color scheme is from Chris Kemp
 Developing
 ----------
 
-This project uses Bundler and SASS. Make sure to do the following each time you begin working:
+This project requires [Ruby](http://ruby-lang.org), [Bundler](http://gembundler.com/) and [SASS](http://sass-lang.com). Make sure to do the following each time you begin working:
 
 1. `bundle`
 2. `sass --watch Coder.AdiumMessageStyle/Contents/Resources/SASS:Coder.AdiumMessageStyle/Contents/Resources/CSS`
+
+Contributing
+------------
+
+I accept pull requests. If you find a bug or have suggestions, please [file an issue](https://github.com/jakebellacera/coder-theme) and label it with the appropriate label.
