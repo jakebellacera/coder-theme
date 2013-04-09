@@ -16,4 +16,4 @@ This project requires [Ruby](http://ruby-lang.org), [Bundler](http://gembundler.
 Contributing
 ------------
 
-I accept pull requests. If you find a bug or have suggestions, please [file an issue](https://github.com/jakebellacera/coder-theme) and label it with the appropriate label.
+I accept pull requests. If you find a bug or have suggestions, please [file an issue](https://github.com/jakebellacera/coder-theme/issues) and label it with the appropriate label.
