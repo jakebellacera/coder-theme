@@ -5,6 +5,11 @@ Coder - Theme for Adium
 
 Coder is a simple, irc-like theme for Adium. The color scheme is from Chris Kempson's [Tommorow Theme](https://github.com/chriskempson/tomorrow-theme).
 
+Getting it
+----------
+
+You can download the latest version [here](https://github.com/jakebellacera/coder-theme/archive/master.zip) or at [AdiumXtras](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=8421).
+
 Developing
 ----------
 
